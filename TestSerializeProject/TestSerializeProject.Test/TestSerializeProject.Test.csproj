@@ -55,6 +55,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserTest.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestSerializeProject.Models\TestSerializeProject.Models.csproj">
+      <Project>{c5afce7f-f86e-4a1f-b919-b646b164945a}</Project>
+      <Name>TestSerializeProject.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TestSerializeProject.Repository\TestSerializeProject.Repository.csproj">
+      <Project>{d2d2bf6a-7f99-4514-afce-d1db7b465d76}</Project>
+      <Name>TestSerializeProject.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
