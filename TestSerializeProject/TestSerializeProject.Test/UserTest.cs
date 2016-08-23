@@ -9,6 +9,11 @@ namespace TestSerializeProject.Test
         [TestMethod]
         public void GetSerializeUser()
         {
+            //Arrange
+
+            //Act
+
+            //Assert
 
         }
     }
