@@ -17,6 +17,7 @@ namespace TestSerializeProject.Test
             var user = new User();
             user.Id = 1;
             user.Name = "User name";
+            //что-то добавил
 
             var extended = "{\"Id\":1,\"Name\":\"User name\"}";
 
