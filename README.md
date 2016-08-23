@@ -1,2 +1,2 @@
 # TestSerializeProject
-Serialize Json 
+Что-то о сериализации объектов
