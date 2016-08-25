@@ -10,5 +10,6 @@ namespace TestSerializeProject.Models
     {
         public int Id;
         public string Name;
+        
     }
 }
