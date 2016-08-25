@@ -14,5 +14,10 @@ namespace TestSerializeProject.Repository
         {
             return JsonConvert.SerializeObject(user);
         }
+
+        public User GetDeSerializeUser(string userJson)
+        {
+            return JsonConvert.DeserializeObject<User>(userJson);
+        }
     }
 }
