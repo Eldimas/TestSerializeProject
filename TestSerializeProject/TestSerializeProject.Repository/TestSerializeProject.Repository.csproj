@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="PersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User1Repository.cs" />
     <Compile Include="UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
