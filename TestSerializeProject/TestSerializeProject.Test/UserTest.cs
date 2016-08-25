@@ -40,6 +40,7 @@ namespace TestSerializeProject.Test
 
             //Assert
             Assert.AreEqual(extended, actual);
+
         }
     }
 }
