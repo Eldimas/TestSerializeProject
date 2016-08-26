@@ -1,5 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Web.Script.Serialization;
+
 
 namespace TestSerializeProject.Models
 {
@@ -11,7 +14,7 @@ namespace TestSerializeProject.Models
             Male,
             Female
         }
-
+       
         public int Id;
         public string Name;
         public Gender GenderEnum;
